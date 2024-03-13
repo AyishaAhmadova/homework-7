@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(foto2.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.navbar img {
+    height: 55px;
+    transition: 3s;
+
+}
+
+
+
+.logo img {
+    width: 60px;
+    cursor: pointer;
+    transition: 2s;
+    margin-left: 150px;
+    filter: drop-shadow(5px 5px 5px blue);
+}
+
+.logo :hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
+i {
+    color: #ffffff;
+    margin: 20px;
+}
+
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    justify-content: space-between;
+
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+.navbar ul a::after {
+    content: "";
+    position: absolute;
+    left: 25px;
+    width: 0%;
+    bottom: 0;
+    height: 2px;
+    background-color: blue;
+    transition: width 0.5s ease-out;
+    filter: drop-shadow(5px 5px 5px blue);
+
+
+
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+
+
+.qutular {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px;
+    margin-top: 150px;
+
+}
+
+.sag {
+    width: 65%;
+
+}
+
+h1 {
+    color: #f1eded;
+    font-size: 100px;
+}
+
+p {
+    color: #f3ebeb;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.button {
+    padding: 12px 20px;
+    background-color: rgb(165, 165, 212);
+    margin-top: 50px;
+    font-size: 12px;
+    border: 0;
+
+
+}
+
+
+.kart1 {
+    width: 25%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 20px 30px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+
+}
+
+.kart1 {
+    width: 25%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 20px 30px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: 2s;
+
+}
+
+.kart2 {
+    width: 30%;
+    height: 210px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin: 25px 25px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: 2s;
+
+}
+
+.kart3 {
+    width: 30%;
+    height: 210px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin: 25px 25px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: 2s;
+
+}
+
+.kart4 {
+    width: 30%;
+    height: 210px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin: 25px 25px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: 2s;
+
+}
+
+
+.kart1 {
+    background-image: url(foto1.avif);
+}
+
+.kart2 {
+    background-image: url(foto5.avif);
+}
+
+.kart3 {
+    background-image: url(foto4.avif);
+}
+
+.kart4 {
+    background-image: url(foto3.avif);
+}
+
+.kart1:hover {
+    transform: translateY(-15px);
+    box-shadow: 1px 1px 20px blue;
+
+}
+
+.kart2:hover {
+    transform: translateY(-15px);
+    box-shadow: 1px 1px 20px blue;
+}
+
+.kart3:hover {
+    transform: translateY(-15px);
+    box-shadow: 1px 1px 20px blue;
+}
+
+.kart4:hover {
+    transform: translateY(-15px);
+    box-shadow: 1px 1px 20px blue;
+}
+
+
+h5 {
+    color: white;
+    font-size: 10px;
+}
+
+.kart1 p {
+    font-size: 10px;
+}
+
+.kart2 p {
+    font-size: 10px;
+}
+
+.kart3 p {
+    font-size: 10px;
+}
+
+.kart4 p {
+    font-size: 10px;
+}
